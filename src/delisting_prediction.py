@@ -30,6 +30,11 @@ from sklearn.preprocessing import StandardScaler
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 
+# 원 프로젝트의 한글 그래프 출력 설정
+plt.rcParams["font.family"] = "Malgun Gothic"
+plt.rcParams["axes.unicode_minus"] = False
+
+
 DATA_PATH = Path("data/상장폐지_예측데이터셋(2021~2023).csv")
 
 
